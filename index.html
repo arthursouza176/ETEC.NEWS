@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etec News</title>
+    <link rel="stylesheet" href="estilinho.css">
+    <link rel="icon" href="etec.jfif">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <h1>ETEC NEWS</h1>
+            <p class="slogan">O Melhor Jornal da Etec!</p>
+        </div>
+        <button id="modoNoturno">🌙</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Início</a></li>
+            <li><a href="inter_futebol.html">Esportes</a></li>
+            <li><a href="vestibulinho.html">Vestibulinho</a></li>
+            <li><a href="tcc.html">TCC</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="video-marketing">
+            <h1>Times da Etec!!</h1>
+            <div class="video-container">
+                <video controls width="100%" autoplay muted loop>
+                    <source src="Hailuo_Video_Faça um video de varios times _440266343554772999.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h3>Veja mais sobre nossos grandes times no @etec_esportes </h3>
+        </section>
+<section class="destaque-principal">
+    <h2>Notícia em Destaque</h2>
+    <article class="noticia-destaque">
+        <img src="provalogo.png" alt="Etec Destaque">
+        <div class="destaque-content">
+            <h2>Provão paulista 2025; Veja datas e informações.</h2>
+            <p>Provão paulista; Vestibular acontece na primeira semana de novembro.</p>
+            <a href="provão-paulista.html" class="btn-ler-noticia">
+                Ler Notícia Completa
+            </a>
+        </div>
+    </article>
+</section>
+<section class="noticias-recentes">
+    <h2> Últimas Notícias</h2>
+    <div class="grid-noticias">
+        <article class="noticia-card" onmouseover="destacarCard(this)" onmouseout="normalizarCard(this)">
+            <a href="mkt.html" class="card-link">
+                <h3>Brechó do Marketing</h3>
+                <p>Saiba um pouco mais sobre o brechó</p>
+                <p>Que aconteceu no dia da interclasse de futebol</p>
+            </a>
+        </article>
+
+        <article class="noticia-card" onmouseover="destacarCard(this)" onmouseout="normalizarCard(this)">
+            <a href="strogo.html" class="card-link">
+                <h3>Strogonoff do Recreio</h3>
+                <p>A Fila que Move Multidões</p>
+                <p>Toda Quinta-Feira!</p>
+            </a>
+        </article>
+        <article class="noticia-card" onmouseover="destacarCard(this)" onmouseout="normalizarCard(this)">
+            <a href="enfermagem.html" class="card-link">
+                <h3>Enfermagem Fura-Fila</h3>
+                <p>É Drible da Enfermagem! É verdade que a enfermagem fura fila mesmo?</p>
+            </a>
+        </article>
+    </div>
+</section>
+    <footer>
+        <p>Desenvolvedores: Gabriela F. e Arthur M. Contato: (16) 97403-9269</p>
+    </footer>
+    <script src="script.js"></script>
+    <button id="btnTopo">↑ Topo</button>
+</body>
+</html>
